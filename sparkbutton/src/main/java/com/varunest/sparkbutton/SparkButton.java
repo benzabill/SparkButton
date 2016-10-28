@@ -198,6 +198,11 @@ public class SparkButton extends FrameLayout implements View.OnClickListener {
         imageView.setColorFilter(isChecked ? activeImageTint : inActiveImageTint, PorterDuff.Mode.SRC_ATOP);
     }
 
+    public void setImageResourceIds(int imageResourceIdActive,int imageResourceIdInactive){
+        this.imageResourceIdActive = imageResourceIdActive;
+        int imageResourceIdInactive =imageResourceIdInactive;   
+    }
+    
     public void setEventListener(SparkEventListener listener) {
         this.listener = listener;
     }
