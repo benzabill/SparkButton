@@ -200,7 +200,7 @@ public class SparkButton extends FrameLayout implements View.OnClickListener {
 
     public void setImageResourceIds(int imageResourceIdActive,int imageResourceIdInactive){
         this.imageResourceIdActive = imageResourceIdActive;
-        int imageResourceIdInactive =imageResourceIdInactive;   
+        this.imageResourceIdInactive =imageResourceIdInactive;   
     }
     
     public void setEventListener(SparkEventListener listener) {
